@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+.funn img{
+    width: 24px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+.funn h3{
+    position: absolute;
+    top: 17px;
+    left: 130px;
+    color:rgb(85, 84, 84) ;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 7vh;
+    position: absolute;
+    color: rgb(59, 59, 59);
+    top: 70px;
+    left: 19%;
+}
+.main1{
+    height: 105px;
+    width: 300px;
+    background-color: transparent;
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.m1{
+    height: 42%;
+    width: 100%;
+    background-color: rgb(201, 199, 199);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+.m2{
+    height: 47%;
+    width: 100%;
+    background-color: rgb(58, 163, 161);
+    position: absolute;
+    top: 20%;
+}
+.m3{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(58, 163, 161);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%; 
+}
+.main2{
+    height: 93px;
+    width: 264px;
+    background-color: transparent;
+    position: relative;
+    left: 8.7%;
+    top: 189px;
+}
+.main3{
+    height: 81px;
+    width: 228px;
+    background-color: transparent;
+    position: relative;
+    left: 10%;
+    top: 180px;
+}
+.main4{
+    height: 69px;
+    width: 192px;
+    background-color: transparent;
+    position: relative;
+    left: 11.4%;
+    top: 172px;
+}
+.main5{
+    height: 57px;
+    width: 156px;
+    background-color: transparent;
+    position: relative;
+    left: 13%;
+    top: 165px;
+}
+.main2 .m2,.main2 .m3{
+    background-color: rgb(80, 66, 85);
+}
+.main3 .m2,.main3 .m3{
+    background-color: rgb(230, 70, 6);
+}
+.main4 .m2,.main4 .m3{
+    background-color: rgb(243, 183, 18);
+}
+.main5 .m2,.main5 .m3{
+    background-color: rgb(219, 95, 95);
+}
+.num{
+    height: 380px;
+    width: 55%;
+    position: relative;
+    left: 20%;
+    top: -210px;
+    z-index: -1;
+}
+.n1,.n2,.n3,.n4,.n5{
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+.n1{
+    color:rgb(58, 163, 161) ;
+    top: -1%;
+    left: 37%;
+}
+.n2{
+    color:rgb(80, 66, 85) ;
+    top: 19%;
+    left: 30%;
+}
+.n3{
+    color:rgb(230, 70, 6) ;
+    top: 39%;
+    left: 24%;
+}
+.n4{
+    color:rgb(243, 183, 18) ;
+    top: 58%;
+    left: 19%;
+}
+.n5{
+    color:rgb(219, 95, 95) ;
+    top: 76%;
+    left: 13%;
+}
+.n11,.n12,.n13,.n14,.n15{
+    position: absolute;
+    border-bottom:2px dashed rgb(170, 170, 170);
+    height: 20%;
+    right: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.n11{
+    width: 23%;
+}
+.n12{
+    width: 30%;
+    top: 19%;
+}
+.n13{
+    width: 37%;
+    top: 38%;
+}
+.n14{
+    width: 42%;
+    top: 58%;
+}
+.n15{
+    width: 48%;
+    top: 77%;
+}
+.ph1{
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    color: rgb(51, 51, 51);
+    top: 5%;
+}
+.p1{
+    position: absolute;
+    bottom: 10%;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+}
+.p2{
+    position: absolute;
+    bottom: -12%;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+}
+.dot1,.dot3,.dot5{
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    right: 25.3%;
+    border-radius: 50%;
+    border: 2px solid rgb(170, 170, 170);
+    /* background-color: black; */
+}
+.dot2,.dot4{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    right: 25.3%;
+    border-radius: 50%;
+    /* border: 2px solid grey; */
+    background-color: rgb(170, 170, 170);
+}
+.dot1{
+    top: 19%;
+}
+.dot2{
+    top: 38%;
+}
+.dot3{
+    top: 56.9%;
+}
+.dot4{
+    top: 76.8%;
+}
+.dot5{
+    top: 96%;
+}
